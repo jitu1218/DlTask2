@@ -1,0 +1,7 @@
+{
+  "source_dataset": "GTSRB official final test set",
+  "source_filename": "04434.ppm",
+  "true_sign_class_id": 0,
+  "occluder": "leaves",
+  "synthetic_crop_coverage": 0.24365234375
+}

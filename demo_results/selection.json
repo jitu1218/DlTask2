@@ -1,0 +1,5 @@
+{
+  "best_epoch": 12,
+  "threshold": 0.72,
+  "selection": "validation joint loss for checkpoint; validation occlusion F1 for threshold"
+}

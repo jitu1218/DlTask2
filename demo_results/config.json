@@ -1,0 +1,25 @@
+{
+  "data": "data",
+  "output": "demo_results",
+  "download": false,
+  "epochs": 12,
+  "patience": 5,
+  "batch_size": 64,
+  "seed": 42,
+  "threads": 2,
+  "train_per_class": 100,
+  "val_per_class": 30,
+  "test_per_class": 40,
+  "split_sizes": {
+    "train": 4300,
+    "validation": 1290,
+    "test": 1720
+  },
+  "dataset": "GTSRB official final training/test",
+  "label_definition": "added synthetic overlay, not natural occlusion",
+  "torch_version": "2.15.0+cpu",
+  "input_size": 64,
+  "classes": 43,
+  "protocol": "Track-disjoint training/validation; official test. Evaluation pairs clean + one deterministic overlay.",
+  "subset_run": true
+}
