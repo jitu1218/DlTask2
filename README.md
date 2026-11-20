@@ -158,10 +158,6 @@ that generated a run; rerunning generates paths appropriate for your machine.
 
 ## Submission and explanation
 
-Upload the extracted code and `demo_results` to your own GitHub repository and
-submit its link if your assignment portal requests one. Do not upload `.venv`
-or the large `data/` folder. No repository has been published for you.
-
 Viva summary: “My CNN shares visual features between a sign-classification head
 and an occlusion head. I synthesize three occluder types, separate physical-sign
 tracks before augmentation, and evaluate occlusion precision and recall on held-out
